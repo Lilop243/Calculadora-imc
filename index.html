@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="general-container">
+        <header class="header-content">
+          <div class="title-container">
+            <h1 class="title">CALCULADORA IMC</h1>
+          </div>
+        </header>
+        <main class="main-content">
+          <form action="" class="form-container">
+            <div class="message-container">
+              <p class="message">Descubra su índice de masa corporal</p>
+            </div>
+            <table class="table-container">
+              <tr class="table-row">
+                <td class="table-data table-data-label">
+                  <label for="gender" class="form-label">Sexo</label>
+                </td>
+                <td class="table-data">
+                  <div class="radio-container">
+                    <input type="radio" name="gender" id="male" class="radio-button">
+                    <label for="male" class="radio-icon-label"><img src="https://cdn-icons-png.flaticon.com/512/2922/2922579.png" alt=""
+                        class="radio-icon"></label>
+                    <input type="radio" name="gender" id="female" class="radio-button">
+                    <label for="female" class="radio-icon-label"><img src="https://cdn-icons-png.flaticon.com/512/2922/2922518.png" alt=""
+                        class="radio-icon"></label>
+                  </div>
+                </td>
+              </tr>
+              <tr class="table-row">
+                <td class="table-data table-data-label">
+                  <label for="age" class="form-label">Edad</label>
+                </td>
+                <td class="table-data">
+                  <input type="number" name="age" id="age" class="text-box">
+                </td>
+                <td class="table-data table-data-label"></td>
+              </tr>
+              <tr class="table-row">
+                <td class="table-data table-data-label">
+                  <label for="weight" class="form-label">Peso</label>
+                </td>
+                <td class="table-data">
+                  <input type="number" name="weight" id="weight" class="text-box">
+                </td>
+                <td class="table-data table-data-label">
+                  <p class="unit-measure">KG</p>
+                </td>
+              </tr>
+              <tr class="table-row">
+                <td class="table-data table-data-label">
+                  <label for="height" class="form-label">Altura</label>
+                </td>
+                <td class="table-data">
+                  <input type="number" name="height" id="height" class="text-box">
+                </td>
+                <td class="table-data table-data-label">
+                  <p class="unit-measure">M</p>
+                </td>
+              </tr>
+            </table>
+            <div class="button-container">
+              <input type="button" value="CALCULAR IMC" class="send-button">
+            </div>
+            <div class="button-container">
+              <a href="datos.html" class="href-button">
+                <input type="button" value="ESTADÍSTICAS" class="send-button">
+              </a>
+            </div>
+          </form>
+          <div class="result-container">
+            <div class="title-2-container">
+              <h2 class="title-2">
+                Resultado
+              </h2>
+            </div>
+            <div class="result-number-container">
+              <p class="result-number"></p>
+            </div>
+            <div class="status-bar-container">
+              <div class="status-bar">
+                <div class="status-bar-indicator"></div>
+              </div>
+            </div>
+            <hr class="separator">
+            <div class="message-container">
+              <p class="message ideal-weight-message">Peso ideal:</p>
+            </div>
+            <div class="legend-status-container">
+              <div class="legend-status"><img src="img/bascula (1).png" alt="Weight sacle image" class="image-status"
+                  id="underweight">
+                <p class="text-status">Bajo peso</p>
+              </div>
+              <div class="legend-status"><img src="img/bascula.png" alt="Weight sacle image" class="image-status"
+                  id="normal">
+                <p class="text-status">Saludable</p>
+              </div>
+              <div class="legend-status"><img src="img/bascula (2).png" alt="Weight sacle image" class="image-status"
+                  id="overweight">
+                <p class="text-status">Exceso de peso</p>
+              </div>
+              <div class="legend-status"><img src="img/bascula (3).png" alt="Weight sacle image" class="image-status"
+                  id="obese">
+                <p class="text-status">Obeso</p>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <script src="script/script.js"></script>
+</body>
+</html>

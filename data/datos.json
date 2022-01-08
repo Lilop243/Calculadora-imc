@@ -1,0 +1,110 @@
+{
+   "datos":[
+       {
+           "sexo":"Mujer",
+           "edad":"20",
+           "imc":"19.50",
+           "id":"1"
+       },
+
+       {
+        "sexo":"Hombre",
+        "edad":"27",
+        "imc":"19.39",
+        "id":"2"
+    },
+
+    {
+        "sexo":"Mujer",
+        "edad":"35",
+        "imc":"30.0",
+        "id":"3"
+    },
+
+    {
+        "sexo":"Mujer",
+        "edad":"40",
+        "imc":"18.5",
+        "id":"4"
+    },
+
+    {
+        "sexo":"Hombre",
+        "edad":"29",
+        "imc":"24.6",
+        "id":"5"
+    },
+
+    {
+     "sexo":"Mujer",
+     "edad":"30",
+     "imc":"17.5",
+     "id":"6"
+ },
+
+ {
+     "sexo":"Hombre",
+     "edad":"35",
+     "imc":"31.5",
+     "id":"7"
+ },
+
+ {
+     "sexo":"Hombre",
+     "edad":"22",
+     "imc":"19.3",
+     "id":"8"
+ },
+
+ {
+    "sexo":"Mujer",
+    "edad":"60",
+    "imc":"18.5",
+    "id":"9"
+},
+
+{
+ "sexo":"Mujer",
+ "edad":"20",
+ "imc":"30.5",
+ "id":"10"
+},
+
+{
+ "sexo":"Hombre",
+ "edad":"50",
+ "imc":"27.6",
+ "id":"11"
+},
+
+{
+ "sexo":"Mujer",
+ "edad":"90",
+ "imc":"18.6",
+ "id":"12"
+},
+
+{
+ "sexo":"Hombre",
+ "edad":"39",
+ "imc":"17.5",
+ "id":"13"
+},
+
+{
+"sexo":"Mujer",
+"edad":"27",
+"imc":"35.6",
+"id":"14"
+},
+
+{
+"sexo":"Mujer",
+"edad":"35",
+"imc":"27.5",
+"id":"15"
+}
+
+
+   ]
+}
